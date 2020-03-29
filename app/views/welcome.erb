@@ -1,0 +1,65 @@
+<div class="container">
+<h1>Covid-19 Questionaire</h1>
+<p>
+  If you are concerned you may have Covid-19 please fill out this questionaire.
+  We will send a text message alerting either your Doctor or someone else you trust
+  to get in contact with you if you are deemed high risk per CDC guidelines. 
+</p>
+  <div class="col-md-8 col-md-offset-2">
+    <h2>Please Fill Out The Following Information</h2>
+
+    <div class="content">
+      <form class="" action="/information" method="post">
+          <label for="name">Name: </label>
+          <input type="text" name="name" value="">
+          <br />
+          <label for="age">Age: </label>
+          <input type="text" name="age" value="">
+          <br />
+          <label for="phone">Phone Number: </label>
+          <input type="tel" id="phone" name="phone">
+       <!-- pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required-->
+
+       <br />
+          <label for="street">Street: </label>
+          <input type="text" name="street" value="">
+          <br />
+          <label for="city">City: </label>
+          <input type="text" name="city" value="">
+          <br />
+          <label for="state">State: </label>
+          <input type="text" name="state" value="">
+          <br />
+
+
+        <h3>Do you have the following symptoms of Covid-19:</h3>
+        <input type="checkbox" id="fever" name="fever" value="fever">
+        <label for="fever"> I have a fever</label><br>
+        <input type="checkbox" id="cough" name="cough" value="cough">
+        <label for="cough2"> I have a dry cough</label><br>
+        <input type="checkbox" id="fatigue" name="fatigue" value="fatigue">
+        <label for="fatigue"> I have fatigue</label><br>
+
+        <h3>Do you have pre-existing conditions:</h3>
+        <input type="checkbox" id="lung" name="lung" value="lung">
+        <label for="lung"> Chronic lung disease or moderate to severe asthma</label><br>
+        <input type="checkbox" id="heart" name="heart" value="heart">
+        <label for="heart"> Serious heart conditions</label><br>
+        <input type="checkbox" id="immunecomp" name="immunecomp" value="immunecomp">
+        <label for="immunecomp"> Immunocompromised including cancer treatment</label><br>
+        <input type="checkbox" id="bmi" name="bmi" value="bmi">
+        <label for="bmi"> of any age with severe obesity (body mass index [BMI] >40)
+          or certain underlying medical conditions, particularly if not well controlled,
+          such as those with diabetes, renal failure, or liver disease might also be at risk</label><br>
+
+
+<br />
+<input type="submit" name="" value="Submit">
+
+        </form>
+    </div>
+
+
+
+  </div>
+</div>
